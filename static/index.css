@@ -1,12 +1,36 @@
-body {
-	background-color: #ffffff;
-	width: 100%;
-	padding: 0px;
-}
-
 .project {
 	margin-left: 20px;
 	padding: 20px;
 	background-color: #deebf7;
 	width: 525px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-family: georgia;
+	font-style: italic;
+}
+
+.jumbotron p {
+	font-family: verdana;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+
+.project a {
+	font-family: verdana;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-size: 15px;
+	line-height: 15px;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-size: 30px;
+	font-family: georgia;
+	font-style: italic;
 }
